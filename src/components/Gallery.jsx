@@ -14,27 +14,27 @@ const Gallery = () => {
       <div className='grid grid-cols-3 auto-rows-auto w-full max-w-[56.25rem] gap-x-3 gap-y-2 desktop:gap-x-8 desktop:gap-y-[1.125rem]'>
 
         <picture className='col-span-1'>
-          <img src={photo1} alt='photo1'  className='w-full h-full rounded-xl shadow-2xl' />
+          <img src={photo1} className='w-full h-full rounded-xl shadow-2xl' />
         </picture>
 
         <picture className='col-span-2'>
-          <img src={photo2} alt='photo2'  className='w-full h-full rounded-xl shadow-2xl' />
+          <img src={photo2} className='w-full h-full rounded-xl shadow-2xl' />
         </picture>
-        
+
         <picture className='col-span-2'>
-          <img src={photo3} alt='photo3' className='w-full h-full rounded-xl shadow-2xl' />
+          <img src={photo3} className='w-full h-full rounded-xl shadow-2xl' />
         </picture>
 
         <picture className='row-span-2'>
-          <img src={photo4} alt='photo4' className='w-full h-full rounded-xl shadow-2xl' />
+          <img src={photo4} className='w-full h-full rounded-xl shadow-2xl' />
         </picture>
 
         <picture>
-          <img src={photo5} alt='photo5' className='w-full h-full rounded-xl shadow-2xl' />
+          <img src={photo5} className='w-full h-full rounded-xl shadow-2xl' />
         </picture>
 
         <picture>
-          <img src={photo6} alt='photo6' className='w-full h-full rounded-xl shadow-2xl' />
+          <img src={photo6} className='w-full h-full rounded-xl shadow-2xl' />
         </picture>
       </div>
 
