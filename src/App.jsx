@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="App grid place-content-center min-h-screen">
-      <main>
+      <main className="flex flex-col items-center gap-[3.25rem] desktop:gap-[5.1875rem]">
         <ProfileCard/>
         <Gallery/>
       </main>

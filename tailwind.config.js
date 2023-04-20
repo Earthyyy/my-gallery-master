@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        mobile: "375px",
+        desktop: "1440px",
+      },
       colors: {
         primary: "#4E5150",
         secondary: "#A9A9A9",
@@ -18,7 +22,7 @@ export default {
         location: "var(--fs-location)",
         stats: "var(--fs-stats)",
         footer: "var(--fs-footer)",
-      }
+      },
     },
   },
   plugins: [],
